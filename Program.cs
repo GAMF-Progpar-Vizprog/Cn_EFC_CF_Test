@@ -21,7 +21,8 @@ namespace CnEFCF_Test
 		public cnContext() : base() {	}
 		protected override void OnConfiguring(DbContextOptionsBuilder OptionsBuilder)
 		{
-			OptionsBuilder.UseSqlServer("Data Source=(localdb)\\mssqllocaldb;Initial Catalog=master;Integrated Security=True");
+			OptionsBuilder.UseSqlServer(
+				"Data Source=(localdb)\\mssqllocaldb;Initial Catalog=master;Integrated Security=True");
 			base.OnConfiguring(OptionsBuilder);
 		}
 	}
