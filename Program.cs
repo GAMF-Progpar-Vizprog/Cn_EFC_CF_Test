@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 
-namespace CnEFCF_Test
+namespace Cn_EFC_CF_Test
 {
 
 	[Table("TESTDATA")]
